@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Homework 10</title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css">
+  <title>Cat Breeds</title>
+</head>
+
+<body>
+  <div class="container">
     <select class="breed-select"></select>
     <p class="loader">Loading data, please wait...</p>
-    <p class="error">Oops! Something went wrong! Try reloading the page!</p>
-    <div class="cat-info"></div>
+    <p class="error">Oops! Something went wrong. Try reloading the page!</p>
+    <div class="cat-info">
+      <h2>Breed Information</h2>
+      <img class="cat-image" src="./51f3b65d0dadebefae825bbe20e930f1.png" alt="Cat Image" />
+      <p class="breed-name"></p>
+      <p class="breed-description"></p>
+      <p class="breed-temperament"></p>
+    </div>
+  </div>
 
-    <script src="index.js" type="module"></script>
-  </body>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
